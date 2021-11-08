@@ -16,14 +16,14 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        let gradient: CAGradientLayer = CAGradientLayer()
-//        gradient.type = .axial
-//        gradient.colors = [UIColor.init(cgColor: .init(srgbRed: 255, green: 138, blue: 216, alpha: 100)), UIColor.white.cgColor]
-//        gradient.startPoint = CGPoint(x: 0, y: 0)
-//        gradient.endPoint = CGPoint(x: 1, y: 1)
-//        gradient.frame = view.bounds
-//
-//        view.layer.insertSublayer(gradient, at: 0)
+        let gradient: CAGradientLayer = CAGradientLayer()
+        gradient.type = .axial
+        gradient.colors = [UIColor.init(cgColor: .init(srgbRed: 255, green: 138, blue: 216, alpha: 100)), UIColor.white.cgColor]
+        gradient.startPoint = CGPoint(x: 0, y: 0)
+        gradient.endPoint = CGPoint(x: 1, y: 1)
+        gradient.frame = view.bounds
+
+        view.layer.insertSublayer(gradient, at: 0)
 
     }
     
