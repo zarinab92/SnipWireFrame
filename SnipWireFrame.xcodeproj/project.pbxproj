@@ -112,13 +112,6 @@
 			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
-		7660D89526D010B00013419F /* ServiceLayer */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ServiceLayer;
-			sourceTree = "<group>";
-		};
 		769276B626C415CE00BB5CAC = {
 			isa = PBXGroup;
 			children = (
@@ -144,7 +137,6 @@
 		769276C126C415CE00BB5CAC /* SnipWireFrame */ = {
 			isa = PBXGroup;
 			children = (
-				7660D89526D010B00013419F /* ServiceLayer */,
 				7660D89426D010820013419F /* SupportingFiles */,
 				769276FA26C4664200BB5CAC /* Controller */,
 				769276F926C4663400BB5CAC /* View */,
